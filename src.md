@@ -22,7 +22,7 @@ Following configuration is needed in order to run this project locally.
 > After installing above, make sure you have three environment variables set in your local machine - `${JAVA_HOME}`, `${M2_HOME}`, `${ALLURE_HOME}`
 
 ## Test Execution
-Test execution is much simpler. You can do this by executing only one command or by run preconfigured Jenkins job.
+Test execution is much simpler. You can do this by executing only one command or by running preconfigured Jenkins job.
 
 Clone this repository
 
@@ -87,8 +87,10 @@ In order to run the tests remotely on Jenkins, you can refer below job.
 Build this Job with required parameters. Parameters are nothing but Environment Variables we do provide to this project. In case no values provided, tests will run with default configuration as mentioned earlier.
 
 > Allure Report is generated on same Jenkins instance. You can view it same workspace.
+
 > You cannot execute this job for your local changes. For local, you need to configure project locally and follow previous instructions or give your machine IP as `${appURL}`to Jenkins build.
-> This job is configured to run on `master` node where all there supported browsers are installed
+
+> This job is configured to run on `master` node where all supported browsers are installed
 
 ## Development
 
